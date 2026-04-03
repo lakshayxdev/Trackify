@@ -1,31 +1,16 @@
-# Trackify
-Trackify is a clean and minimal habit tracking web app that helps users build consistency and stay disciplined by tracking daily habits and monitoring progress.
+# React + Vite
 
-🌟 Features
-✅ Add and delete habits
-🔁 Mark habits as completed / undo
-📊 Progress tracking with visual indicator
-💾 Data persistence using Local Storage
-🌙 Clean and minimal Dark UI
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🛠️ Tech Stack
-⚛️ React.js
-🎨 Tailwind CSS
-🧠 JavaScript (ES6+)
-💾 Local Storage
+Currently, two official plugins are available:
 
-🚧 Future Upgradation looking for
-🔐 User Authentication (Login / Signup)
-☁️ Backend Integration (Node.js / Express)
-🗄️ Database Support (MongoDB / Firebase)
-📅 Calendar-based habit tracking
-📱 Fully responsive design
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-💡 How It Works
-Habits are stored in Local Storage, so data persists even after refresh
-Users can mark habits as complete or undo them
-Progress updates dynamically based on completed habits
+## React Compiler
 
-🤝 Contributing
-Contributions are welcome!
-Feel free to fork this repository and submit a pull request.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
